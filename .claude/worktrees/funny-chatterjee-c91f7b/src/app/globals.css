@@ -1,0 +1,57 @@
+@import 'tailwindcss';
+@plugin "daisyui";
+
+[data-theme='dark'] {
+  --color-primary: #f05;
+  --color-secondary: #faa;
+}
+
+body {
+  background-color: black;
+  background-image: url('/images/background.jpg');
+  background-size: contain;
+  font-family: var(--font-Poppins);
+  min-height: 100dvh;
+}
+
+/* Custom Glassmorphism Utilities */
+.glass-panel {
+  background: rgba(30, 30, 30, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+}
+
+.glass-card {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: all 0.3s ease;
+}
+
+.title-main {
+  font-family: var(--font-ephesis);
+  transition: ease 0.2s all;
+  box-shadow: none;
+  background: none;
+  border: none;
+  color: #f05;
+  text-shadow:
+    0 0 2px black,
+    0 0 4px black,
+    0 0 8px black,
+    0 0 12px black;
+  font-weight: bold;
+}
+.title-main.navbar:hover {
+  color: inherit;
+  transform: scale(1.15);
+  box-shadow: none;
+  background: none;
+  border: none;
+}

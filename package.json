@@ -1,0 +1,42 @@
+{
+  "name": "xtasis-drink-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@number-flow/react": "^0.6.2",
+    "canvas-confetti": "^1.9.3",
+    "clsx": "^2.1.1",
+    "daisyui": "^5.5.19",
+    "motion": "^12.38.0",
+    "next": "^16.2.1",
+    "ogl": "^1.0.11",
+    "qrcode.react": "^4.2.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-icons": "^5.6.0",
+    "sonner": "^2.0.7",
+    "tailwind-merge": "^2.5.2",
+    "vaul": "^1.1.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.0",
+    "tailwindcss": "^4.2.2"
+  },
+  "ignoreScripts": [
+    "sharp",
+    "unrs-resolver"
+  ],
+  "trustedDependencies": [
+    "sharp",
+    "unrs-resolver"
+  ]
+}

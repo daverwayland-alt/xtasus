@@ -1,0 +1,152 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - link "Ir al contenido" [ref=e4] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e5]:
+      - link "Xtasis, inicio" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - text: xtasis.
+      - navigation "Navegación principal" [ref=e7]:
+        - link "Las experiencias" [ref=e8] [cursor=pointer]:
+          - /url: "#experiencias"
+        - link "El lounge NUEVO" [ref=e9] [cursor=pointer]:
+          - /url: /lounge
+        - button "El ritual" [ref=e10] [cursor=pointer]
+      - generic [ref=e11]:
+        - button "Ajustes" [ref=e12] [cursor=pointer]
+        - button "Tengo invitación" [ref=e16] [cursor=pointer]
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - paragraph [ref=e22]: EL ARTE DE PASARLA BIEN · +18
+        - heading [level=1] [ref=e24]:
+          - text: La nochetiene
+          - emphasis [ref=e25]: otras
+          - text: reglas.
+          - generic [aria-hidden] [ref=e26]: ✳
+        - paragraph [ref=e27]: Un poco de misterio. Una mirada de más.Juegos para descubrir lo que pasa cuando se apagan las excusas.
+        - generic [ref=e28]:
+          - button [ref=e29] [cursor=pointer]
+          - link "Jugar en un solo celular" [ref=e34] [cursor=pointer]:
+            - /url: /offline
+        - generic [ref=e37]:
+          - generic [aria-hidden] [ref=e38]:
+            - generic [ref=e39]: A
+            - generic [ref=e40]: M
+            - generic [ref=e41]: V
+            - generic [ref=e42]: +
+          - paragraph [ref=e43]:
+            - strong [ref=e44]: De 2 a 8 cómplices.
+            - text: Sin descargas. Con mucha química.
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - img "Cóctel rubí en una copa fina sobre terciopelo oscuro" [ref=e47]
+          - generic [ref=e48]: THE AFTER DARK COLLECTIONVOL. 01 — SIN PRISA
+          - generic [ref=e49]: BUENAS COMPAÑÍAS. MALAS IDEAS.
+          - generic [ref=e50]:
+            - generic [ref=e51]: Una noche para recordar.
+            - generic [ref=e52]: 01 / 03
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e55]: ♡
+            - text: ENTRE MIRADAS
+            - generic [ref=e56]: "02"
+          - paragraph [ref=e57]:
+            - text: ¿Y si esta nochete atreves a dar
+            - emphasis [ref=e60]: el primer paso?
+          - generic [ref=e61]: VERDAD O RETO
+        - generic [aria-hidden] [ref=e65]:
+          - generic [ref=e66]: EST. 2026
+          - generic [ref=e67]: x.
+          - generic [ref=e68]: AFTER DARK
+    - generic [ref=e69]:
+      - generic [ref=e70]: BUENA COMPAÑÍA
+      - generic [ref=e71]: ✦
+      - generic [ref=e72]: CERO GUIONES
+      - generic [ref=e73]: ✦
+      - generic [ref=e74]: QUÍMICA REAL
+      - generic [ref=e75]: ✦
+      - generic [ref=e76]: TUS PROPIAS REGLAS
+      - generic [ref=e77]: ✦
+      - link "Descubrir las experiencias" [ref=e78] [cursor=pointer]:
+        - /url: "#experiencias"
+    - generic [ref=e81]:
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - paragraph [ref=e84]: ELIGE CÓMO EMPIEZA
+          - heading [level=2] [ref=e85]:
+            - text: Cada noche,
+            - emphasis [ref=e86]: un universo.
+        - paragraph [ref=e87]: De la primera risa a la última mirada.La intensidad la eligen ustedes.
+      - generic [ref=e88]:
+        - link "01 ROMPE EL HIELO La primera copa Las mejores historias empiezan con una buena pregunta. 2–8 15–25 min Cómplices" [ref=e89] [cursor=pointer]:
+          - /url: /offline?level=1
+          - generic [ref=e90]: "01"
+          - generic [ref=e95]: ♧
+          - generic [ref=e98]:
+            - paragraph [ref=e99]: ROMPE EL HIELO
+            - heading "La primera copa" [level=3] [ref=e100]
+            - paragraph [ref=e101]: Las mejores historias empiezan con una buena pregunta.
+            - generic [ref=e102]:
+              - text: 2–8 15–25 min
+              - generic [ref=e109]: Cómplices
+        - link "02 SUBE LA TENSIÓN Entre miradas Hay cosas que se dicen mejor sin bajar la mirada. 2–8 20–35 min Seducción" [ref=e110] [cursor=pointer]:
+          - /url: /offline?level=2
+          - generic [ref=e111]: "02"
+          - generic [ref=e116]: ♡
+          - generic [ref=e119]:
+            - paragraph [ref=e120]: SUBE LA TENSIÓN
+            - heading "Entre miradas" [level=3] [ref=e121]
+            - paragraph [ref=e122]: Hay cosas que se dicen mejor sin bajar la mirada.
+            - generic [ref=e123]:
+              - text: 2–8 20–35 min
+              - generic [ref=e130]: Seducción
+        - link "03 PARA QUIENES SE ATREVEN After hours El reloj se detiene. Las reglas las ponen ustedes. 2–8 30–45 min Intensidad" [ref=e131] [cursor=pointer]:
+          - /url: /offline?level=3
+          - generic [ref=e132]: "03"
+          - generic [ref=e137]: ♤
+          - generic [ref=e140]:
+            - paragraph [ref=e141]: PARA QUIENES SE ATREVEN
+            - heading "After hours" [level=3] [ref=e142]
+            - paragraph [ref=e143]: El reloj se detiene. Las reglas las ponen ustedes.
+            - generic [ref=e144]:
+              - text: 2–8 30–45 min
+              - generic [ref=e151]: Intensidad
+    - generic [ref=e152]:
+      - generic [ref=e153]:
+        - paragraph [ref=e154]: LA NOCHE TIENE MÁS PLANES
+        - heading [level=2] [ref=e157]:
+          - text: Bienvenidoa
+          - emphasis [ref=e158]: tu lounge.
+        - paragraph [ref=e159]: Quince maneras de cambiar el rumbo de la noche.Minijuegos, conexiones inesperadas y una barra a tu medida.
+        - link [ref=e160] [cursor=pointer]:
+          - /url: /lounge
+      - generic [aria-hidden] [ref=e165]:
+        - generic [ref=e166]: x.
+        - generic [ref=e167]:
+          - generic [ref=e168]: THE PRIVATE COLLECTION
+          - generic [ref=e169]: ♡
+          - emphasis [ref=e170]: Menos scroll.Más conexión.
+          - generic [ref=e172]: XTASIS · AFTER DARK
+    - generic [ref=e173]:
+      - paragraph [ref=e174]: ASÍ DE FÁCIL. ASÍ DE DISTINTO.
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - text: "01"
+          - heading "Reúne a tus cómplices." [level=3] [ref=e177]
+          - paragraph [ref=e178]: Abre una sala o comparte un solo celular.
+        - generic [ref=e179]:
+          - text: "02"
+          - heading "Encuentra tu intensidad." [level=3] [ref=e180]
+          - paragraph [ref=e181]: Tres ambientes. Tú decides hasta dónde.
+        - generic [ref=e182]:
+          - text: "03"
+          - heading "Deja que suceda." [level=3] [ref=e183]
+          - paragraph [ref=e184]: Verdades, retos y conversaciones inesperadas.
+      - paragraph [ref=e185]: Puedes pasar cualquier pregunta. Lo mejor de la noche es que todos estén a gusto.
+    - generic [ref=e188]:
+      - link "xtasis." [ref=e189] [cursor=pointer]:
+        - /url: /
+      - paragraph [ref=e190]: La mejor parte de la noche es con quién la compartes.
+      - generic [ref=e191]: +18 · A TU RITMO · TAMBIÉN SIN ALCOHOL
+  - region "Notifications alt+T"
+  - alert [ref=e192]

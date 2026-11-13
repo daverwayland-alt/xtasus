@@ -1,0 +1,164 @@
+# ==============================
+# 🧠 CORE (Node / JS / TS)
+# ==============================
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==============================
+# ⚙️ BUILD / DIST
+# ==============================
+dist/
+build/
+.out/
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+storybook-static/
+*.tsbuildinfo
+
+# Vite
+vite.svg
+
+# ==============================
+# 🧪 TESTING
+# ==============================
+coverage/
+.nyc_output/
+
+# ==============================
+# 🔐 ENV / SECRETS
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# 🧾 CACHE / TEMP
+# ==============================
+.cache/
+.temp/
+.tmp/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.turbo/
+.vercel/
+.netlify/
+
+# ==============================
+# 🖥️ OS FILES
+# ==============================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==============================
+# 🧑‍💻 EDITORS / IDE
+# ==============================
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# JetBrains
+.idea/
+*.iml
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# ==============================
+# 🔥 TYPESCRIPT
+# ==============================
+*.tsbuildinfo
+
+# ==============================
+# 🧱 FRAMEWORKS
+# ==============================
+
+# Next.js
+.next/
+out/
+
+# Nuxt
+.nuxt/
+
+# React Native
+.expo/
+.expo-shared/
+
+# ==============================
+# 📦 PACKAGE MANAGERS
+# ==============================
+
+# lockfiles (opcional: comenta si sí quieres versionarlos)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ==============================
+# 🐳 DOCKER
+# ==============================
+.docker/
+docker-compose.override.yml
+
+# ==============================
+# 🔑 CERTS / KEYS
+# ==============================
+*.pem
+*.key
+*.crt
+*.p12
+
+# ==============================
+# 📁 MISC
+# ==============================
+*.tgz
+*.bak
+*.swp
+*.swo
+
+# ==============================
+# 🧩 MONOREPO / TURBO / NX
+# ==============================
+dist/
+node_modules/
+.tmp/
+.cache/
+.turbo/
+
+# ==============================
+# 🚨 DEBUG
+# ==============================
+debug.log
+error.log
+
+# ==============================
+# 🧠 RECOMENDADO (ANTI-DRAMA)
+# ==============================
+# evita subir configs locales raras
+*.local
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local.claude/worktrees/
