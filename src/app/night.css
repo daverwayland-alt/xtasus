@@ -175,6 +175,8 @@ p { text-wrap: pretty; }
 .panel-stack, .lounge-form { display: flex; flex-direction: column; gap: 19px; }
 .lounge-form label, .field-label { display: flex; flex-direction: column; gap: 8px; font-size: 11px; color: var(--muted); }
 .lounge-form .input, .field-label .input { width: 100%; min-height: 45px; padding: 11px 13px; font-size: 13px; border: 1px solid var(--line-2); border-radius: 5px; background: #0a0a0d; color: var(--paper); font-family: var(--font-body), sans-serif; }
+.lounge-form .code-input { min-height: 74px; padding: 10px 0 10px 0.4em; font-family: var(--font-display), Georgia, serif; font-size: clamp(2rem, 11vw, 2.75rem); font-weight: 700; letter-spacing: 0.4em; text-align: center; text-transform: uppercase; border-radius: 12px; }
+.lounge-form .code-input::placeholder { letter-spacing: 0.4em; opacity: 0.35; }
 .lounge-textarea { resize: vertical; min-height: 90px !important; line-height: 1.7; }
 .lounge-panel small, .helper-copy { color: var(--subtle); font-size: 10px; line-height: 1.8; }
 .panel-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }

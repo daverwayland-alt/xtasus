@@ -1,0 +1,14 @@
+# Blueprint de Render: un único servidor Node persistente.
+# El store de partidas vive en memoria, así que NUNCA subas numInstances > 1
+# ni uses autoscaling, y evita el plan free (se duerme y borra las salas).
+services:
+  - type: web
+    name: xtasis
+    runtime: node
+    plan: starter
+    region: oregon
+    numInstances: 1
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    healthCheckPath: /
+    autoDeploy: true

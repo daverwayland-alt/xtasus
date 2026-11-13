@@ -20,11 +20,20 @@ export function useGameStream(gameId, { onGone } = {}) {
     let pollTimer = null;
     let retry = null;
 
+    /* Un 404 suelto no significa que la sala murió (varias instancias, reinicios, red móvil):
+       solo se da por perdida tras varios 404 seguidos. */
+    let misses = 0;
     const poll = async () => {
       try {
         const res = await fetch(`/api/game/${gameId}`, { cache: 'no-store' });
-        if (res.status === 404) return goneRef.current?.();
-        if (res.ok && !closed) apply(await res.json());
+        if (res.status === 404) {
+          if (++misses >= 5 && !closed) goneRef.current?.();
+          return;
+        }
+        if (res.ok && !closed) {
+          misses = 0;
+          apply(await res.json());
+        }
       } catch {}
     };
 
